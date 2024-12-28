@@ -1,0 +1,31 @@
+
+State Machine - |top|current_state
+Name current_state.STOPWATCH current_state.TIMER current_state.CLOCK 
+current_state.CLOCK 0 0 0 
+current_state.STOPWATCH 1 0 1 
+current_state.TIMER 0 1 1 
+
+State Machine - |top|timer:u_timer|choice
+Name choice.MIN choice.HOUR choice.SEC 
+choice.SEC 0 0 0 
+choice.MIN 1 0 1 
+choice.HOUR 0 1 1 
+
+State Machine - |top|timer:u_timer|current_state
+Name current_state.PAUSED current_state.TIMEUP current_state.RUNNING current_state.SETTING 
+current_state.SETTING 0 0 0 0 
+current_state.RUNNING 0 0 1 1 
+current_state.TIMEUP 0 1 0 1 
+current_state.PAUSED 1 0 0 1 
+
+State Machine - |top|stopwatch:u_stopwatch|current_state
+Name current_state.RUNNING current_state.PAUSED current_state.IDLE 
+current_state.IDLE 0 0 0 
+current_state.RUNNING 1 0 1 
+current_state.PAUSED 0 1 1 
+
+State Machine - |top|clock:u_clock|choice
+Name choice.MIN choice.HOUR choice.SEC 
+choice.SEC 0 0 0 
+choice.MIN 1 0 1 
+choice.HOUR 0 1 1 

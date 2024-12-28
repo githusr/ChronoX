@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec 29 01:16:58 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ChronoX
+Top-level Entity Name : top
+Family : Cyclone IV E
+Total logic elements : 876
+    Total combinational functions : 863
+    Dedicated logic registers : 280
+Total registers : 280
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
