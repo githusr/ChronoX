@@ -1,0 +1,2 @@
+[*.{asm,inc}]
+end_of_line = crlf
